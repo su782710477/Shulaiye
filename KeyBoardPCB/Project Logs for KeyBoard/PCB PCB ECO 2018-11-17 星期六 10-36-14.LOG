@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=V5.0 Pin=P5-1
+Removed Pin From Net: NetName=V5.0 Pin=P6-1
+Removed Member From Class: ClassName=Designator Member=C8
+Removed Member From Class: ClassName=Designator Member=P1
+Removed Member From Class: ClassName=Designator Member=P3
+Removed Member From Class: ClassName=Designator Member=P4
+Removed Member From Class: ClassName=Designator Member=Q1
+Removed Member From Class: ClassName=Designator Member=Q2
+Removed Member From Class: ClassName=Designator Member=R1
+Removed Member From Class: ClassName=Designator Member=R2
+Removed Member From Class: ClassName=Designator Member=R3
+Removed Member From Class: ClassName=Designator Member=R4
+Removed Member From Class: ClassName=Designator Member=R5
+Removed Member From Class: ClassName=Designator Member=R6
+Removed Member From Class: ClassName=Designator Member=R7
+Removed Member From Class: ClassName=Designator Member=R8
+Removed Member From Class: ClassName=Designator Member=R9
+Removed Member From Class: ClassName=Designator Member=R10
+Removed Member From Class: ClassName=Designator Member=U1
+Added Pin To Net: NetName=V3.3 Pin=P5-1
+Added Pin To Net: NetName=V3.3 Pin=P6-1
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Sheet1

@@ -1,0 +1,246 @@
+Added Component: Designator=C1(0805_C)
+Added Component: Designator=C2(0805_C)
+Added Component: Designator=C3(0805_C)
+Added Component: Designator=C4(0805_C)
+Added Component: Designator=C5(0805_C)
+Added Component: Designator=C6(0805_C)
+Added Component: Designator=C7(0805_C)
+Added Component: Designator=C8(0805_C)
+Added Component: Designator=C9(0805_C)
+Added Component: Designator=C10(0805_C)
+Added Component: Designator=C11(0805_C)
+Added Component: Designator=C12(0805_C)
+Added Component: Designator=C13(0805_C)
+Added Component: Designator=C14(0805_C)
+Added Component: Designator=FB1(0805_L)
+Added Component: Designator=FB2(0805_L)
+Added Component: Designator=LS1(PIN2)
+Added Component: Designator=P1(HDR1X7)
+Added Component: Designator=P2(HDR1X2)
+Added Component: Designator=P3(HDR1X4)
+Added Component: Designator=P4(HDR1X2)
+Added Component: Designator=P5(HDR1X4)
+Added Component: Designator=P6(HDR1X4)
+Added Component: Designator=Q1(SOT-23(SOT-23-3))
+Added Component: Designator=Q2(SOT-23(SOT-23-3))
+Added Component: Designator=Q3(SOT-23(SOT-23-3))
+Added Component: Designator=R1(0805_R)
+Added Component: Designator=R2(0805_R)
+Added Component: Designator=R3(0805_R)
+Added Component: Designator=R4(0805_R)
+Added Component: Designator=R5(0805_R)
+Added Component: Designator=R6(0805_R)
+Added Component: Designator=R7(0805_R)
+Added Component: Designator=R8(0805_R)
+Added Component: Designator=R9(0805_R)
+Added Component: Designator=R10(0805_R)
+Added Component: Designator=R11(0805_R)
+Added Component: Designator=R12(0805_R)
+Added Component: Designator=R13(0805_R)
+Added Component: Designator=R14(0805_R)
+Added Component: Designator=R15(0805_R)
+Added Component: Designator=R16(0805_R)
+Added Component: Designator=R17(0805_R)
+Added Component: Designator=R18(0805_R)
+Added Component: Designator=R19(0805_R)
+Added Component: Designator=U1(SOIC-8_150mil)
+Added Component: Designator=U2(LQFP-48_7x7x05P)
+Added Component: Designator=VR1(SOT-223)
+Added Component: Designator=VR2(SOT-223)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=V12 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=V12 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=V5.0 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=V5.0 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=V5.0 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=V3.3 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=V3.3 Pin=C7-2
+Added Pin To Net: NetName=V3.3 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=V3.3 Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=V3.3 Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=V3.3 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=V3.3 Pin=C12-2
+Added Pin To Net: NetName=GNDA Pin=C13-1
+Added Pin To Net: NetName=V3.3A Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=V3.3 Pin=C14-2
+Added Pin To Net: NetName=V3.3 Pin=FB1-1
+Added Pin To Net: NetName=V3.3A Pin=FB1-2
+Added Pin To Net: NetName=GND Pin=FB2-1
+Added Pin To Net: NetName=GNDA Pin=FB2-2
+Added Pin To Net: NetName=V5.0 Pin=LS1-1
+Added Pin To Net: NetName=NetLS1_2 Pin=LS1-2
+Added Pin To Net: NetName=MATRIX_X1 Pin=P1-1
+Added Pin To Net: NetName=MATRIX_X2 Pin=P1-2
+Added Pin To Net: NetName=MATRIX_X3 Pin=P1-3
+Added Pin To Net: NetName=KEY_Y1 Pin=P1-4
+Added Pin To Net: NetName=KEY_Y2 Pin=P1-5
+Added Pin To Net: NetName=KEY_Y3 Pin=P1-6
+Added Pin To Net: NetName=KEY_Y4 Pin=P1-7
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=V12 Pin=P2-2
+Added Pin To Net: NetName=V5.0 Pin=P3-1
+Added Pin To Net: NetName=TXD Pin=P3-2
+Added Pin To Net: NetName=RXD Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=NetP4_1 Pin=P4-1
+Added Pin To Net: NetName=NetP4_2 Pin=P4-2
+Added Pin To Net: NetName=V5.0 Pin=P5-1
+Added Pin To Net: NetName=SWDCLK Pin=P5-2
+Added Pin To Net: NetName=SWDIO Pin=P5-3
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=V5.0 Pin=P6-1
+Added Pin To Net: NetName=UART3_TXD Pin=P6-2
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=TXD Pin=Q1-2
+Added Pin To Net: NetName=RC522_RXD Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=RC522_TXD Pin=Q2-2
+Added Pin To Net: NetName=RXD Pin=Q2-3
+Added Pin To Net: NetName=BEE Pin=Q3-1
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetLS1_2 Pin=Q3-3
+Added Pin To Net: NetName=V5.0 Pin=R1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-2
+Added Pin To Net: NetName=RC522_RXD Pin=R2-1
+Added Pin To Net: NetName=V3.3 Pin=R2-2
+Added Pin To Net: NetName=TXD Pin=R3-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R3-2
+Added Pin To Net: NetName=V5.0 Pin=R4-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R4-2
+Added Pin To Net: NetName=RC522_TXD Pin=R5-1
+Added Pin To Net: NetName=V3.3 Pin=R5-2
+Added Pin To Net: NetName=RXD Pin=R6-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R6-2
+Added Pin To Net: NetName=RS485_RXD Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetP4_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetP4_2 Pin=R9-1
+Added Pin To Net: NetName=NetP4_1 Pin=R9-2
+Added Pin To Net: NetName=V3.3 Pin=R10-1
+Added Pin To Net: NetName=NetP4_2 Pin=R10-2
+Added Pin To Net: NetName=KEY_X1 Pin=R11-1
+Added Pin To Net: NetName=MATRIX_X1 Pin=R11-2
+Added Pin To Net: NetName=KEY_X2 Pin=R12-1
+Added Pin To Net: NetName=MATRIX_X2 Pin=R12-2
+Added Pin To Net: NetName=KEY_X3 Pin=R13-1
+Added Pin To Net: NetName=MATRIX_X3 Pin=R13-2
+Added Pin To Net: NetName=UART1_RXD Pin=R14-1
+Added Pin To Net: NetName=RC522_TXD Pin=R14-2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=GND Pin=R15-2
+Added Pin To Net: NetName=UART1_TXD Pin=R16-1
+Added Pin To Net: NetName=RC522_RXD Pin=R16-2
+Added Pin To Net: NetName=UART2_DE Pin=R17-1
+Added Pin To Net: NetName=RS485_DE Pin=R17-2
+Added Pin To Net: NetName=UART2_RXD Pin=R18-1
+Added Pin To Net: NetName=RS485_TXD Pin=R18-2
+Added Pin To Net: NetName=UART2_TXD Pin=R19-1
+Added Pin To Net: NetName=RS485_RXD Pin=R19-2
+Added Pin To Net: NetName=RS485_RXD Pin=U1-1
+Added Pin To Net: NetName=RS485_DE Pin=U1-2
+Added Pin To Net: NetName=RS485_DE Pin=U1-3
+Added Pin To Net: NetName=RS485_TXD Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=NetP4_2 Pin=U1-6
+Added Pin To Net: NetName=NetP4_1 Pin=U1-7
+Added Pin To Net: NetName=V3.3 Pin=U1-8
+Added Pin To Net: NetName=V3.3 Pin=U2-1
+Added Pin To Net: NetName=BEE Pin=U2-2
+Added Pin To Net: NetName=GNDA Pin=U2-8
+Added Pin To Net: NetName=V3.3A Pin=U2-9
+Added Pin To Net: NetName=UART2_DE Pin=U2-11
+Added Pin To Net: NetName=UART2_TXD Pin=U2-12
+Added Pin To Net: NetName=UART2_RXD Pin=U2-13
+Added Pin To Net: NetName=KEY_X1 Pin=U2-14
+Added Pin To Net: NetName=KEY_X2 Pin=U2-15
+Added Pin To Net: NetName=KEY_X3 Pin=U2-16
+Added Pin To Net: NetName=KEY_Y1 Pin=U2-17
+Added Pin To Net: NetName=KEY_Y2 Pin=U2-18
+Added Pin To Net: NetName=KEY_Y3 Pin=U2-19
+Added Pin To Net: NetName=KEY_Y4 Pin=U2-20
+Added Pin To Net: NetName=GND Pin=U2-23
+Added Pin To Net: NetName=V3.3 Pin=U2-24
+Added Pin To Net: NetName=UART1_TXD Pin=U2-30
+Added Pin To Net: NetName=UART1_RXD Pin=U2-31
+Added Pin To Net: NetName=SWDIO Pin=U2-34
+Added Pin To Net: NetName=SWDCLK Pin=U2-37
+Added Pin To Net: NetName=NetR15_1 Pin=U2-44
+Added Pin To Net: NetName=UART3_TXD Pin=U2-46
+Added Pin To Net: NetName=GND Pin=U2-47
+Added Pin To Net: NetName=V3.3 Pin=U2-48
+Added Pin To Net: NetName=GND Pin=VR1-1
+Added Pin To Net: NetName=V5.0 Pin=VR1-2
+Added Pin To Net: NetName=V5.0 Pin=VR1-2
+Added Pin To Net: NetName=V12 Pin=VR1-3
+Added Pin To Net: NetName=GND Pin=VR2-1
+Added Pin To Net: NetName=V3.3 Pin=VR2-2
+Added Pin To Net: NetName=V3.3 Pin=VR2-2
+Added Pin To Net: NetName=V5.0 Pin=VR2-3
+Added Member To Class: ClassName=Designator Member=Component C1 10uF (106) 10% 25V
+Added Member To Class: ClassName=Designator Member=Component C2 100nF(104) 10% 50V
+Added Member To Class: ClassName=Designator Member=Component C3 100nF(104) 10% 50V
+Added Member To Class: ClassName=Designator Member=Component C4 10uF (106) 10% 25V
+Added Member To Class: ClassName=Designator Member=Component C5 100nF(104) 10% 50V
+Added Member To Class: ClassName=Designator Member=Component C6 100nF(104) 10% 50V
+Added Member To Class: ClassName=Designator Member=Component C7 10uF (106) 10% 25V
+Added Member To Class: ClassName=Designator Member=Component C8 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C9 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C10 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C11 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C12 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C13 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component C14 100nF(104) 10% 50V
+Added Member To Class: ClassName=Sheet1 Member=Component FB1 100次 ㊣25% 100MHz
+Added Member To Class: ClassName=Sheet1 Member=Component FB2 100次 ㊣25% 100MHz
+Added Member To Class: ClassName=Sheet1 Member=Component LS1 Speaker
+Added Member To Class: ClassName=Designator Member=Component P1 Header 7
+Added Member To Class: ClassName=Designator Member=Component P2 Header 2
+Added Member To Class: ClassName=Designator Member=Component P3 RC522
+Added Member To Class: ClassName=Designator Member=Component P4 Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component P5 RC522
+Added Member To Class: ClassName=Sheet1 Member=Component P6 RC522
+Added Member To Class: ClassName=Designator Member=Component Q1 SS8050 Y1
+Added Member To Class: ClassName=Designator Member=Component Q2 SS8050 Y1
+Added Member To Class: ClassName=Sheet1 Member=Component Q3 SS8050 Y1
+Added Member To Class: ClassName=Designator Member=Component R1 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R2 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R3 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R4 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R5 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R6 4.7K次 (4701) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R7 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R8 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R9 120次 (1200) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R10 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R11 1K次 (1001) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R12 1K次 (1001) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R13 1K次 (1001) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R14 100次 (1000) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R15 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R16 100次 (1000) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R17 100次 (1000) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R18 100次 (1000) ㊣1%
+Added Member To Class: ClassName=Sheet1 Member=Component R19 100次 (1000) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component U1 SP3485EN-L/TR
+Added Member To Class: ClassName=Sheet1 Member=Component U2 STM32F030C8T6
+Added Member To Class: ClassName=Designator Member=Component VR1 AMS1117-5.0
+Added Member To Class: ClassName=Designator Member=Component VR2 AMS1117-3.3
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Sheet1

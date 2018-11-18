@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=BEE Pin=Q3-1
+Added Component: Designator=R20(0805_R)
+Added Pin To Net: NetName=BEE Pin=R20-1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R20-2
+Added Net: Name=NetQ3_1
+Added Member To Class: ClassName=Sheet1 Member=Component R20 1K¦¸ (1001) ¡À1%
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Sheet1

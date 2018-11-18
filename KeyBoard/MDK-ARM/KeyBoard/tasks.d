@@ -1,0 +1,17 @@
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\tasks.o: ../Inc/FreeRTOSConfig.h
+keyboard\tasks.o: ../Inc/main.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h
