@@ -1,0 +1,123 @@
+Removed Pin From Net: NetName=V12 Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=V12 Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=V5.0 Pin=C3-2
+Removed Pin From Net: NetName=V12 Pin=P2-1
+Removed Pin From Net: NetName=V5.0 Pin=P3-1
+Removed Pin From Net: NetName=GND Pin=P3-4
+Removed Pin From Net: NetName=V5.0 Pin=R1-1
+Removed Pin From Net: NetName=V3.3 Pin=R2-2
+Removed Pin From Net: NetName=V5.0 Pin=R4-1
+Removed Pin From Net: NetName=V3.3 Pin=R5-2
+Removed Pin From Net: NetName=UART1_RXD Pin=R14-1
+Removed Pin From Net: NetName=UART1_TXD Pin=R16-1
+Removed Pin From Net: NetName=GND Pin=VR1-1
+Removed Pin From Net: NetName=V5.0 Pin=VR1-2
+Removed Pin From Net: NetName=V5.0 Pin=VR1-2
+Removed Pin From Net: NetName=V12 Pin=VR1-3
+Removed Member From Class: ClassName=Sheet1 Member=R19
+Removed Member From Class: ClassName=Sheet1 Member=R20
+Removed Member From Class: ClassName=Designator Member=VR2
+Change Component Footprint: Designator=P2 Old Footprint=2P_XH2.54 New Footprint=WJ25
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X4 New Footprint=HDR1X7
+Change Component Comment : Designator=R4 Old Comment=4.7K次 (4701) ㊣1% New Comment=23.7K次 (1001) ㊣1%
+Change Component Comment : Designator=R3 Old Comment=4.7K次 (4701) ㊣1% New Comment=100K次 (1003) ㊣1%
+Change Component Comment : Designator=R2 Old Comment=4.7K次 (4701) ㊣1% New Comment=124K次 (1003) ㊣1%
+Change Component Comment : Designator=P3 Old Comment=RC522 New Comment=Header 7
+Change Component Designator: OldDesignator=Bee NewDesignator=Bee1
+Change Component Designator: OldDesignator=C1 NewDesignator=C2
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C6 NewDesignator=C5
+Change Component Designator: OldDesignator=C7 NewDesignator=C6
+Change Component Designator: OldDesignator=C8 NewDesignator=C11
+Change Component Designator: OldDesignator=C9 NewDesignator=C12
+Change Component Designator: OldDesignator=C10 NewDesignator=C13
+Change Component Designator: OldDesignator=C11 NewDesignator=C14
+Change Component Designator: OldDesignator=C12 NewDesignator=C15
+Change Component Designator: OldDesignator=C13 NewDesignator=C16
+Change Component Designator: OldDesignator=C14 NewDesignator=C17
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q1
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=R18 NewDesignator=R16
+Change Component Designator: OldDesignator=R19 NewDesignator=R17
+Change Component Designator: OldDesignator=R20 NewDesignator=R18
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=VR2 NewDesignator=VR1
+Added Component: Designator=C7(0805_C)
+Added Component: Designator=C8(0805_C)
+Added Component: Designator=C9(1206_C)
+Added Component: Designator=C10(0805_C)
+Added Component: Designator=D1(SMA(DO-214AC)_S1)
+Added Component: Designator=D2(SMA(DO-214AC)_S1)
+Added Component: Designator=L1(L_4030)
+Added Component: Designator=U1(SOT-23-6)
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=V5.0 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=V12 Pin=C9-2
+Added Pin To Net: NetName=V5.0 Pin=C10-1
+Added Pin To Net: NetName=V12 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=P3-6
+Added Pin To Net: NetName=V3.3 Pin=P3-7
+Added Pin To Net: NetName=UART1_RXD Pin=P6-2
+Added Pin To Net: NetName=UART1_TXD Pin=P6-3
+Added Pin To Net: NetName=V5.0 Pin=R2-1
+Added Pin To Net: NetName=V12 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=V12 Pin=U1-5
+Change Net Name : Old Net Name=NetBee_2 New Net Name=NetBee1_2
+Change Net Name : Old Net Name=NetQ3_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR14_1
+Added Pin To Net: NetName=NetC1_1 Pin=C2-2
+Added Pin To Net: NetName=NetC1_1 Pin=D1-1
+Added Pin To Net: NetName=NetC1_1 Pin=P2-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=D2-1
+Added Pin To Net: NetName=NetC7_1 Pin=L1-1
+Added Pin To Net: NetName=NetC7_1 Pin=U1-6
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=U1-1
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=R2-2
+Added Pin To Net: NetName=NetC10_2 Pin=R4-2
+Added Pin To Net: NetName=NetC10_2 Pin=U1-3
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=RC522_MISO Pin=P3-4
+Added Pin To Net: NetName=RC522_MISO Pin=U3-27
+Added Net: Name=RC522_MISO
+Added Pin To Net: NetName=RC522_MOSI Pin=P3-3
+Added Pin To Net: NetName=RC522_MOSI Pin=U3-28
+Added Net: Name=RC522_MOSI
+Added Pin To Net: NetName=RC522_NSS Pin=P3-1
+Added Pin To Net: NetName=RC522_NSS Pin=U3-25
+Added Net: Name=RC522_NSS
+Added Pin To Net: NetName=RC522_RST Pin=P3-5
+Added Pin To Net: NetName=RC522_RST Pin=U3-29
+Added Net: Name=RC522_RST
+Added Pin To Net: NetName=RC522_SCK Pin=P3-2
+Added Pin To Net: NetName=RC522_SCK Pin=U3-26
+Added Net: Name=RC522_SCK
+Added Member To Class: ClassName=Designator Member=Component C8 10uF (106) 10% 25V
+Added Member To Class: ClassName=Designator Member=Component C9 4.7uF (475) 10% 50V
+Added Member To Class: ClassName=Designator Member=Component C10 33pF (330) 5% 50V
+Added Member To Class: ClassName=Designator Member=Component D1 SS54
+Added Member To Class: ClassName=Designator Member=Component D2 SS210
+Added Member To Class: ClassName=Designator Member=Component L1 3.3uH
+Added Member To Class: ClassName=Designator Member=Component R2 124K次 (1003) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R3 100K次 (1003) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component R4 23.7K次 (1001) ㊣1%
+Added Member To Class: ClassName=Designator Member=Component U1 MP2451DT-LF-Z
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Sheet1

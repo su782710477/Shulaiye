@@ -7,13 +7,13 @@ keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 keyboard\main.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 keyboard\main.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 keyboard\main.o: ../Drivers/CMSIS/Include/core_cm0.h
-keyboard\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\main.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 keyboard\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 keyboard\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 keyboard\main.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h
 keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
-keyboard\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+keyboard\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h
 keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h
 keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h
@@ -32,7 +32,7 @@ keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 keyboard\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
 keyboard\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 keyboard\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 keyboard\main.o: ../Inc/FreeRTOSConfig.h
 keyboard\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 keyboard\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

@@ -2,7 +2,7 @@ keyboard\system_stm32f0xx.o: ..//Src/system_stm32f0xx.c
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cm0.h
-keyboard\system_stm32f0xx.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\system_stm32f0xx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Include/core_cmFunc.h
@@ -13,7 +13,7 @@ keyboard\system_stm32f0xx.o: ../Inc/main.h
 keyboard\system_stm32f0xx.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
 keyboard\system_stm32f0xx.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 keyboard\system_stm32f0xx.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
-keyboard\system_stm32f0xx.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+keyboard\system_stm32f0xx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\system_stm32f0xx.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h
 keyboard\system_stm32f0xx.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h
 keyboard\system_stm32f0xx.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h

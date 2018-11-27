@@ -1,8 +1,8 @@
 keyboard\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-keyboard\timers.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\timers.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 keyboard\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\timers.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\timers.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\timers.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\timers.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\timers.o: ../Inc/FreeRTOSConfig.h
 keyboard\timers.o: ../Inc/main.h
 keyboard\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

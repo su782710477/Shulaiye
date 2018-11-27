@@ -1,8 +1,8 @@
 keyboard\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-keyboard\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 keyboard\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\list.o: ../Inc/FreeRTOSConfig.h
 keyboard\list.o: ../Inc/main.h
 keyboard\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
