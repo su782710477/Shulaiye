@@ -3,7 +3,9 @@
 
 #include "stm32f0xx_hal.h"
 #include "rc522_function.h"
-
+#include "FreeRTOS.h"
+#include "task.h"
+#include "cmsis_os.h"
 uint8_t scan_key(uint8_t key[3]);
 
 

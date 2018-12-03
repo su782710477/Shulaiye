@@ -50,3 +50,4 @@ keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
 keyboard\freertos.o: ..\myCode\rc522_function.h
 keyboard\freertos.o: ..\myCode\rc522_config.h
+keyboard\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h

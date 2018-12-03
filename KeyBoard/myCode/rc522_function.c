@@ -272,21 +272,21 @@ void PcdReset ( void )
 {
 	HAL_GPIO_WritePin ( SPI2_RST_GPIO_Port, SPI2_RST_Pin,GPIO_PIN_SET);
 	
-	HAL_Delay ( 1 );
+	osDelay ( 1 );
 	
 	HAL_GPIO_WritePin ( SPI2_RST_GPIO_Port, SPI2_RST_Pin,GPIO_PIN_RESET);
 	
-	HAL_Delay ( 1 );
+	osDelay ( 1 );
 	
 	HAL_GPIO_WritePin ( SPI2_RST_GPIO_Port, SPI2_RST_Pin,GPIO_PIN_SET);
 	
-	HAL_Delay ( 1 );
+	osDelay ( 1 );
 	
 	WriteRawRC ( CommandReg, 0x0f );
 	
 	while ( ReadRawRC ( CommandReg ) & 0x10 );
 	
-	HAL_Delay ( 1 );
+	osDelay ( 1 );
 	
   WriteRawRC ( ModeReg, 0x3D );            //定义发送和接收常用模式 和Mifare卡通讯，CRC初始值0x6363
 	
@@ -328,7 +328,7 @@ void M500PcdConfigISOType ( uint8_t ucType )
 		
 		WriteRawRC ( TPrescalerReg, 0x3E );
 		
-		HAL_Delay ( 2 );
+		osDelay ( 2 );
 		
 		PcdAntennaOn ();//开天线
 		

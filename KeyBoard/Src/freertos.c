@@ -100,7 +100,7 @@ void MX_FREERTOS_Init(void) {
 
   /* Create the thread(s) */
   /* definition and creation of RC522Task */
-  osThreadDef(RC522Task, StartRC522Task, osPriorityIdle, 0, 64);
+  osThreadDef(RC522Task, StartRC522Task, osPriorityBelowNormal, 0, 128);
   RC522TaskHandle = osThreadCreate(osThread(RC522Task), NULL);
 
   /* definition and creation of RS485Task */
@@ -108,7 +108,7 @@ void MX_FREERTOS_Init(void) {
   RS485TaskHandle = osThreadCreate(osThread(RS485Task), NULL);
 
   /* definition and creation of KeyTask */
-  osThreadDef(KeyTask, StartKeyTask, osPriorityIdle, 0, 64);
+  osThreadDef(KeyTask, StartKeyTask, osPriorityIdle, 0, 128);
   KeyTaskHandle = osThreadCreate(osThread(KeyTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -132,6 +132,8 @@ void StartRC522Task(void const * argument)
 
   /* USER CODE BEGIN StartRC522Task */
 	
+	PcdReset();
+	M500PcdConfigISOType ( 'A' );//设置工作方式
 	
 	
 	char cStr [ 30 ];
@@ -140,6 +142,8 @@ void StartRC522Task(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+		printf("\r\nStartRC522Task");
+		
 		/*寻卡*/
 		if ( ( ucStatusReturn = PcdRequest ( PICC_REQALL, ucArray_ID ) ) != MI_OK )                                   
 			 /*若失败再次寻卡*/
@@ -155,7 +159,7 @@ void StartRC522Task(void const * argument)
 				printf ( "%s\r\n",cStr ); 
       }       
 		}
-    osDelay(1);
+    osDelay(1000);
   }
   /* USER CODE END StartRC522Task */
 }
@@ -167,7 +171,8 @@ void StartRS485Task(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+//		printf("\r\nStartRS485Task");
+    osDelay(1000);
   }
   /* USER CODE END StartRS485Task */
 }
@@ -182,9 +187,11 @@ void StartKeyTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+		
+//		printf("\r\nStartKeyTask");
 		if(scan_key(key) == SUCCESS)
 		{
-			osDelay(10);
+			osDelay(30);
 			if(scan_key(re_key) == SUCCESS)
 			{
 				if( memcmp(key, re_key, 3) == 0 )
@@ -207,7 +214,7 @@ void StartKeyTask(void const * argument)
 				}
 			}
 		}
-    osDelay(1);
+    osDelay(100);
   }
   /* USER CODE END StartKeyTask */
 }

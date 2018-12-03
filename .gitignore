@@ -2,3 +2,9 @@
 KeyBoardPCB/History/
 KeyBoardPCB/Project Logs for KeyBoard/
 KeyBoardPCB/__Previews/
+*.o
+*.crf
+*.map
+*.dep
+*.htm
+*.d
