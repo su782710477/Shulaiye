@@ -1,9 +1,9 @@
 keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-keyboard\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-keyboard\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\tasks.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\tasks.o: ../Inc/FreeRTOSConfig.h
 keyboard\tasks.o: ../Inc/main.h
 keyboard\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

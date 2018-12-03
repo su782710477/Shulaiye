@@ -1,7 +1,7 @@
 keyboard\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 keyboard\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\croutine.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\croutine.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\croutine.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\croutine.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\croutine.o: ../Inc/FreeRTOSConfig.h
 keyboard\croutine.o: ../Inc/main.h
 keyboard\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

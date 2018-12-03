@@ -131,9 +131,30 @@ void StartRC522Task(void const * argument)
 {
 
   /* USER CODE BEGIN StartRC522Task */
+	
+	
+	
+	char cStr [ 30 ];
+  unsigned char ucArray_ID [ 4 ];  //先后存放IC卡的类型和UID(IC卡序列号)
+	uint8_t ucStatusReturn;          //返回状态
   /* Infinite loop */
   for(;;)
   {
+		/*寻卡*/
+		if ( ( ucStatusReturn = PcdRequest ( PICC_REQALL, ucArray_ID ) ) != MI_OK )                                   
+			 /*若失败再次寻卡*/
+		{
+      ucStatusReturn = PcdRequest ( PICC_REQALL, ucArray_ID );		
+		}			
+		if ( ucStatusReturn == MI_OK  )
+		{
+      /*防冲撞（当有多张卡进入读写器操作范围时，防冲突机制会从其中选择一张进行操作）*/
+			if ( PcdAnticoll ( ucArray_ID ) == MI_OK )  
+			{
+				sprintf ( cStr, "The Card ID is: %02X%02X%02X%02X", ucArray_ID [ 0 ], ucArray_ID [ 1 ], ucArray_ID [ 2 ], ucArray_ID [ 3 ] );							
+				printf ( "%s\r\n",cStr ); 
+      }       
+		}
     osDelay(1);
   }
   /* USER CODE END StartRC522Task */

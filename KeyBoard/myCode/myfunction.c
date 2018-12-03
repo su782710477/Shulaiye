@@ -27,7 +27,6 @@ static uint8_t scan_key_y(void)
 
 uint8_t scan_key(uint8_t key[3])
 {
-		uint8_t value = 0;
 		/***********************/
 		HAL_GPIO_WritePin(KEY_X1_GPIO_Port,KEY_X1_Pin,GPIO_PIN_SET);
 		HAL_GPIO_WritePin(KEY_X2_GPIO_Port,KEY_X2_Pin,GPIO_PIN_RESET);

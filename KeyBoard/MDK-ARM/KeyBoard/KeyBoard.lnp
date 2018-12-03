@@ -3,10 +3,13 @@
 "keyboard\main.o"
 "keyboard\gpio.o"
 "keyboard\freertos.o"
+"keyboard\spi.o"
 "keyboard\usart.o"
 "keyboard\stm32f0xx_it.o"
 "keyboard\stm32f0xx_hal_msp.o"
 "keyboard\stm32f0xx_hal_timebase_tim.o"
+"keyboard\stm32f0xx_hal_spi.o"
+"keyboard\stm32f0xx_hal_spi_ex.o"
 "keyboard\stm32f0xx_hal_tim.o"
 "keyboard\stm32f0xx_hal_tim_ex.o"
 "keyboard\stm32f0xx_hal_uart.o"
@@ -34,6 +37,7 @@
 "keyboard\timers.o"
 "keyboard\cmsis_os.o"
 "keyboard\myfunction.o"
+"keyboard\rc522_function.o"
 --library_type=microlib --strict --scatter "KeyBoard\KeyBoard.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

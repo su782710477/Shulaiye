@@ -59,8 +59,6 @@
 
 /* Private define ------------------------------------------------------------*/
 
-#define BEE_Pin GPIO_PIN_13
-#define BEE_GPIO_Port GPIOC
 #define RS485_DE_Pin GPIO_PIN_1
 #define RS485_DE_GPIO_Port GPIOA
 #define RS485_TXD_Pin GPIO_PIN_2
@@ -81,12 +79,12 @@
 #define KEY_Y3_GPIO_Port GPIOB
 #define KEY_Y4_Pin GPIO_PIN_2
 #define KEY_Y4_GPIO_Port GPIOB
-#define RC522_TXD_Pin GPIO_PIN_9
-#define RC522_TXD_GPIO_Port GPIOA
-#define RC522_RXD_Pin GPIO_PIN_10
-#define RC522_RXD_GPIO_Port GPIOA
-#define UART3_TXD_Pin GPIO_PIN_9
-#define UART3_TXD_GPIO_Port GPIOB
+#define SPI_NSS_Pin GPIO_PIN_12
+#define SPI_NSS_GPIO_Port GPIOB
+#define SPI2_RST_Pin GPIO_PIN_8
+#define SPI2_RST_GPIO_Port GPIOA
+#define Bee_Pin GPIO_PIN_11
+#define Bee_GPIO_Port GPIOA
 
 /* ########################## Assert Selection ############################## */
 /**
