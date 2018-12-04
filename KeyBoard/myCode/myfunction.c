@@ -3,78 +3,60 @@
 
 
 
-static uint8_t scan_key_y(void)
+static uint16_t scan_key_y(void)
 {
     uint8_t value = 0;
     if(HAL_GPIO_ReadPin(KEY_Y1_GPIO_Port,KEY_Y1_Pin) == GPIO_PIN_SET)
     {
-        value = 1<<0;
+        value = value | (1<<0);
     }
     if(HAL_GPIO_ReadPin(KEY_Y2_GPIO_Port,KEY_Y2_Pin) == GPIO_PIN_SET)
     {
-        value = 1<<1;
+        value = value | (1<<1);
     }
     if(HAL_GPIO_ReadPin(KEY_Y3_GPIO_Port,KEY_Y3_Pin) == GPIO_PIN_SET)
     {
-        value = 1<<2;
+        value = value | (1<<2);
     }
     if(HAL_GPIO_ReadPin(KEY_Y4_GPIO_Port,KEY_Y4_Pin) == GPIO_PIN_SET)
     {
-        value = 1<<3;
+        value = value | (1<<3);
     }
     return value;
 }
 
-uint8_t scan_key(uint8_t key[3])
+/**				-- 1 2 3
+	*				-- 4 5 6
+	*				-- 7 8 9
+	*				-- * 0 #
+	*					 | | |	
+	*			=============		0000(保留)	0000（第三列）		0000（第二列）		0000（第一列）
+	*			e.g. 5被按下			0000			 	0000						0010						0000
+	*				1，5，9被按下	0000				0100						0010						0001
+	*/
+uint16_t scan_key(void)
 {
 		/***********************/
+		uint16_t key_value = 0;
 		HAL_GPIO_WritePin(KEY_X1_GPIO_Port,KEY_X1_Pin,GPIO_PIN_SET);
 		HAL_GPIO_WritePin(KEY_X2_GPIO_Port,KEY_X2_Pin,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(KEY_X3_GPIO_Port,KEY_X3_Pin,GPIO_PIN_RESET);
-    key[0] = key[0] | scan_key_y();
-    if( (key[0] & 0x0f) != 0 )
-    {
-			key[0] = 1 << 4;
-    }
-		else
-		{
-			key[0] = 0;
-		}
+		key_value = key_value | ( ( scan_key_y( ) ) << 0 );
 		/***********************/
 		HAL_GPIO_WritePin(KEY_X1_GPIO_Port,KEY_X1_Pin,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(KEY_X2_GPIO_Port,KEY_X2_Pin,GPIO_PIN_SET);
     HAL_GPIO_WritePin(KEY_X3_GPIO_Port,KEY_X3_Pin,GPIO_PIN_RESET);
-    key[1] = key[1] | scan_key_y();
-    if( (key[1] & 0x0f) != 0 )
-    {
-			key[1] = 1 << 5;
-    }
-		else
-		{
-			key[1] = 0;
-		}
+		key_value = key_value | ( ( scan_key_y( ) ) << 4 );
 		/***********************/
 		HAL_GPIO_WritePin(KEY_X1_GPIO_Port,KEY_X1_Pin,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(KEY_X2_GPIO_Port,KEY_X2_Pin,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(KEY_X3_GPIO_Port,KEY_X3_Pin,GPIO_PIN_SET);
-    key[2] = key[2] | scan_key_y();
-    if( (key[2] & 0x0f) != 0 )
-    {
-			key[2] = 1 << 6;
-    }
-		else
-		{
-			key[2] = 0;
-		}
+		key_value = key_value | ( ( scan_key_y( ) ) << 8 );	
 		/***********************/
-		if((key[0] | key[1] | key[2]) == 0)
-		{
-			return ERROR;
-		}
-		else
-		{
-			return SUCCESS;
-		}
+		HAL_GPIO_WritePin(KEY_X1_GPIO_Port,KEY_X1_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(KEY_X2_GPIO_Port,KEY_X2_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(KEY_X3_GPIO_Port,KEY_X3_Pin,GPIO_PIN_RESET);
+		return key_value;
 }
 
 

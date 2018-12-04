@@ -63,8 +63,8 @@
 #define RS485_DE_GPIO_Port GPIOA
 #define RS485_TXD_Pin GPIO_PIN_2
 #define RS485_TXD_GPIO_Port GPIOA
-#define RS485_RXS_Pin GPIO_PIN_3
-#define RS485_RXS_GPIO_Port GPIOA
+#define RS485_RXD_Pin GPIO_PIN_3
+#define RS485_RXD_GPIO_Port GPIOA
 #define KEY_X1_Pin GPIO_PIN_4
 #define KEY_X1_GPIO_Port GPIOA
 #define KEY_X2_Pin GPIO_PIN_5

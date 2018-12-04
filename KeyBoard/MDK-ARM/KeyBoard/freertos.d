@@ -1,7 +1,7 @@
 keyboard\freertos.o: ../Src/freertos.c
 keyboard\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\freertos.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\freertos.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\freertos.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\freertos.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\freertos.o: ../Inc/FreeRTOSConfig.h
 keyboard\freertos.o: ../Inc/main.h
 keyboard\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
@@ -29,7 +29,7 @@ keyboard\freertos.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 keyboard\freertos.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 keyboard\freertos.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
-keyboard\freertos.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+keyboard\freertos.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h
@@ -50,4 +50,5 @@ keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 keyboard\freertos.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
 keyboard\freertos.o: ..\myCode\rc522_function.h
 keyboard\freertos.o: ..\myCode\rc522_config.h
+keyboard\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 keyboard\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h

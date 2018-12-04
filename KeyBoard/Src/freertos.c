@@ -181,40 +181,37 @@ void StartRS485Task(void const * argument)
 void StartKeyTask(void const * argument)
 {
   /* USER CODE BEGIN StartKeyTask */
-	uint8_t key[3] = {0};
-	uint8_t re_key[3] = {0};
+	uint16_t key_value = 0;
 	uint8_t err;
   /* Infinite loop */
   for(;;)
   {
 		
-//		printf("\r\nStartKeyTask");
-		if(scan_key(key) == SUCCESS)
+		key_value = scan_key();
+		if(key_value != 0)
 		{
-			osDelay(30);
-			if(scan_key(re_key) == SUCCESS)
+			osDelay(20);
+			
+			if( key_value == scan_key() )
 			{
-				if( memcmp(key, re_key, 3) == 0 )
+
+				if(Key_valueHandle != NULL)
 				{
-					for(int i = 0; i < 3; i++ )
+					while(key_value == scan_key())	//ËÉÊÖ¼ì²â
 					{
-						if(key[i] != NULL)
-						{
-							if(Key_valueHandle != NULL)
-							{
-								err = xQueueSend(Key_valueHandle, &key[i], 10);
-								if(err == errQUEUE_FULL)
-								{
-									printf("\r\nerrQUEUE_FULL");
-								}
-							}
-						}
+						osDelay(1);
 					}
-					printf("Get the all key value %02X,%02X,%02X", key[0], key[1], key[2]);
+					err = xQueueSend(Key_valueHandle, &key_value, 10);
+					printf("\r\nkey_value = 0x%04X",key_value);
+					if(err == errQUEUE_FULL)
+					{
+						printf("\r\nerrQUEUE_FULL");
+					}
 				}
+
 			}
 		}
-    osDelay(100);
+    osDelay(1);
   }
   /* USER CODE END StartKeyTask */
 }

@@ -8,13 +8,13 @@ keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Include/core_cm0.h
-keyboard\myfunction.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\myfunction.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 keyboard\myfunction.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h
 keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
-keyboard\myfunction.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+keyboard\myfunction.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h
 keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h
 keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h
@@ -36,7 +36,7 @@ keyboard\myfunction.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex
 keyboard\myfunction.o: ..\myCode\rc522_function.h
 keyboard\myfunction.o: ..\myCode\rc522_config.h
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\myfunction.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\myfunction.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 keyboard\myfunction.o: ../Inc/FreeRTOSConfig.h
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -50,3 +50,4 @@ keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+keyboard\myfunction.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h

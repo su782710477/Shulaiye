@@ -1,9 +1,9 @@
 keyboard\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-keyboard\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-keyboard\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+keyboard\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 keyboard\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\queue.o: ../Inc/FreeRTOSConfig.h
 keyboard\queue.o: ../Inc/main.h
 keyboard\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

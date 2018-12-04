@@ -1,8 +1,8 @@
 keyboard\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-keyboard\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+keyboard\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 keyboard\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-keyboard\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-keyboard\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 keyboard\heap_4.o: ../Inc/FreeRTOSConfig.h
 keyboard\heap_4.o: ../Inc/main.h
 keyboard\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

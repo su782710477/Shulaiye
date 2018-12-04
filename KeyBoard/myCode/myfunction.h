@@ -6,7 +6,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "cmsis_os.h"
-uint8_t scan_key(uint8_t key[3]);
+uint16_t scan_key(void);
 
 
 
