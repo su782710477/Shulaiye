@@ -8,5 +8,7 @@ KeyBoardPCB/__Previews/
 *.dep
 *.htm
 *.d
-KeyBoardPCB/__Previews/
-KeyBoardPCB/__Previews/
+
+KeyBoardPCB/Project Outputs for KeyBoard/Design Rule Check - PCB.drc
+KeyBoardPCB/Project Outputs for KeyBoard/Design Rule Check - PCB.html
+*.SchDocPreview
